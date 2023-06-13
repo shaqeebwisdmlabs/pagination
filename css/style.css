@@ -6,10 +6,6 @@
   --clr-neutral-700: hsl(240, 3%, 11%);
   --clr-neutral-900: hsl(240, 6%, 6%);
 
-  --clr-red: 0 80% 63%;
-  --clr-green: 160 67% 52%;
-  --clr-yellow: 34 100% 50%;
-
   --ff-primary: "Inter", sans-serif;
   --ff-heading: var(--ff-primary);
   --ff-body: var(--ff-primary);
@@ -102,18 +98,6 @@ select {
 
 /* ----- Utility Classes ----- */
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
-}
-
 .container {
   --max-width: 1120px;
   --padding: 1.5rem;
@@ -122,110 +106,13 @@ select {
   margin-inline: auto;
 }
 
-.box-shadow {
-  box-shadow: 0px 2px 4px rgba(140, 143, 150, 0.15);
-}
-
-/* text color */
-
-.text-primary-100 {
-  color: var(--clr-primary-100);
-}
-
-.text-primary-300 {
-  color: var(--clr-primary-300);
-}
-
-.text-primary-400 {
-  color: var(--clr-primary-400);
-}
-
-.text-neutral-100 {
-  color: var(--clr-neutral-100);
-}
-
-.text-neutral-200 {
-  color: var(--clr-neutral-200);
-}
-
-.text-neutral-300 {
-  color: var(--clr-neutral-300);
-}
-
-.text-neutral-500 {
-  color: var(--clr-neutral-500);
-}
-
-.text-neutral-700 {
-  color: var(--clr-neutral-700);
-}
-
-.text-neutral-900 {
-  color: var(--clr-neutral-900);
-}
-
-/* background color */
-
-.bg-primary-100 {
-  background-color: var(--clr-primary-100);
-}
-
-.bg-primary-300 {
-  background-color: var(--clr-primary-300);
-}
-
-.bg-primary-400 {
-  background-color: var(--clr-primary-400);
-}
-
-.bg-neutral-100 {
-  background-color: var(--clr-neutral-100);
-}
-
-.bg-neutral-200 {
-  background-color: var(--clr-neutral-200);
-}
-
-.bg-neutral-300 {
-  background-color: var(--clr-neutral-300);
-}
-
-.bg-neutral-500 {
-  background-color: var(--clr-neutral-500);
-}
-
-.bg-neutral-700 {
-  background-color: var(--clr-neutral-700);
-}
-
-.bg-neutral-900 {
-  background-color: var(--clr-neutral-900);
-}
-
 /* font weight */
-
-.fw-regular {
-  font-weight: var(--fw-regular);
-}
-
-.fw-medium {
-  font-weight: var(--fw-medium);
-}
 
 .fw-bold {
   font-weight: var(--fw-bold);
 }
 
-.fw-black {
-  font-weight: var(--fw-black);
-}
-
 /* font sizes */
-
-.fs-title-lg {
-  font-size: var(--fs-title-lg);
-  line-height: 1.1;
-}
 
 .fs-title {
   font-size: var(--fs-title);
@@ -243,10 +130,6 @@ select {
 
 .fs-body-sm {
   font-size: var(--fs-body-sm);
-}
-
-.fs-body-x-sm {
-  font-size: var(--fs-body-x-sm);
 }
 
 body {
